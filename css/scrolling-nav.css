@@ -1,0 +1,219 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+
+
+
+
+
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.tutorials-section{
+    height: 100%;
+    padding-top: 2.8%;
+    text-align: center;
+    background: #eee;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+}
+h1
+{
+    padding: 2%
+}
+    
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+    
+    
+}
+#img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.team{
+    text-align: left;
+    position:absolute;
+    left: 20%;
+    width: 80%; 
+    padding-right: 15%;      
+}
+.contribute-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+input{
+       width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+    
+}
+
+
+.flex-item {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-decoration: none;
+    }
+
+.side{
+    text-align: left;
+    width: 10%;
+}
+
+    
+}
+a:hover{
+     text-decoration: none;
+}
+
+
+
+
+
+
+.links {
+  width: 200px;
+}
+ 
+/*h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}*/
+ 
+
+ 
+ .links li{
+  font: 110% Helvetica, Verdana, sans-serif;
+  border-bottom: 100% solid #ccc;
+    padding: 2%;
+    color: #94b8b8;
+}
+ 
+.links li:last-child {
+  border: none;
+}
+ 
+.links li a {
+        text-decoration: none;
+  color: #24478f;
+  display: block;
+  
+  -webkit-transition: font-size 0.4s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+    
+
+}
+ 
+.links li a:hover {
+  font-size: 130%;
+    
+    color:#003366;
+    text-decoration: none;
+    
+}
+
+.link1 
+{
+    position: absolute;
+  width: 13.5%;
+  left:3%;
+    right:20%;
+    
+  
+    
+    
+    }
+.link2 {
+    position: absolute;
+    width: 13.5%;
+    left: 19%;
+    right: 10%;
+}
+.link3 {
+    position: absolute;
+    width: 13.5%;
+    left: 35%;
+    right: 550px;
+}
+.link4 {
+    position: absolute;
+    width: 13.5%;
+    left: 51%;
+    right: 550px;
+}
+.link5 {
+    position: absolute;
+    width: 13.5%;
+    left: 67%;
+    right: 550px;
+}
+.link6 {
+    position: absolute;
+    width: 13.5%;
+    left: 84%;
+    right: 550px;
+}
