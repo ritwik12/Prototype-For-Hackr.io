@@ -131,10 +131,10 @@ p1
     
 }
 
-.list-group h2{
+.list-group h3{
     color:white;
 }
-.list-group h2:hover{
+.list-group h3:hover{
     color:coral;
    
 }
@@ -147,15 +147,7 @@ p1
     padding: 3%;
     font-size: 250%
 }
-h3
-{
-    color: #008bcc;
-    width: 70%;
-    left: 20%;
-    right: 10%; 
-    padding-left: 4%;
-    font-size: 240%;
-}
+
 
     #contents
     {
@@ -220,13 +212,13 @@ h3
     padding: %;
     background-color:  #e6f2ff;
 }
-
-h2
-{
+h3{
     color:#005580;
     padding-bottom: 1%;
     text-align: center;
+
 }
+
 .chat
 {
     position: absolute;
@@ -291,7 +283,7 @@ p
     top:100%;
     height: 8%;
 }
-.foothe
+.foothe 
 {
     position: relative;
     font-size: 140%;
@@ -308,4 +300,10 @@ p
     font-size: 100%;
     border-style: solid;
 }
+#home{
+    width: 20%;
+    height: 20%;
+  
+   
+     }
 
