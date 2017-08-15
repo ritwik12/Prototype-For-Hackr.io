@@ -56,13 +56,13 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
 }
 .tutorials-section h1{
-font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif;
     color: #0000ff;
 }
     h1
 {
     padding: 2%
-        font-family: 'Permanent Marker', cursive;
+       font-family: 'Raleway', sans-serif;
 }
     
 
@@ -73,7 +73,7 @@ font-family: 'Permanent Marker', cursive;
     background: #fff;
     }
 .about-section  h1{
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Dosis', sans-serif;
     color: #ff0000;
 }
     #img{
@@ -112,7 +112,7 @@ font-family: 'Gloria Hallelujah', cursive;
 }
 .contribute-section h1 {
   color:#ff0066;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Kreon', serif;
     margin-top: 3%;
      text-align: center;
     
